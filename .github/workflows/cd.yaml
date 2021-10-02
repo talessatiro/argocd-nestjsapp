@@ -16,7 +16,6 @@ jobs:
         with:
           username: talessatiro
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          context: .
-          file: ./application
+          context: ./application
           repository: talessatiro/argocd-nestjs-app
           tags: ${{ github.sha }}, latest
