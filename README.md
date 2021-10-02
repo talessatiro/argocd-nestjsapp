@@ -20,4 +20,4 @@ Passos de execução:
     k3d cluster create argocd -p "8000:30000@loadbalancer"
     ```
 - Instalação do ArgoCD:
-  - aa
+  - TODO
