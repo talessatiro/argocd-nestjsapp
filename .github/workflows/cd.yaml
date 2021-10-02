@@ -11,6 +11,9 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
 
+      - name: ls
+        run: ls
+
       - name: build image and push to dockerhub
         uses: docker/build-push-action@v1.1.0
         with:
