@@ -1,6 +1,6 @@
-## Configuração de um servidor HTTP usando NestJS + utilização da ferramenta [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) para realização de GitOps.
+## Configuração de um serviço NestJS + utilização da ferramenta [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) para realização de GitOps.
 
-### OBS: Todo material foi produzido seguindo o vídeo [Deploy Contínuo com GitOps e ArgoCD](https://www.youtube.com/watch?v=63HGUgQXD1w) do time da Full Cycle.
+**OBS**: Todo material foi produzido seguindo o vídeo [Deploy Contínuo com GitOps e ArgoCD](https://www.youtube.com/watch?v=63HGUgQXD1w) do time da Full Cycle.
 
 Objetivos: 
  - Configurar repositório com solução simples utilizando Kubernetes (Aplicação NestJS com uma mensagem ao acessar a URL da aplicação).
