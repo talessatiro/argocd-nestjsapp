@@ -36,3 +36,4 @@ Passos de execução:
     ```shell
     kubectl create namespace nestjsapp
     ```
+- Seguir os demais passos para configuração do repositório no ArgoCD: https://youtu.be/63HGUgQXD1w?t=3079
