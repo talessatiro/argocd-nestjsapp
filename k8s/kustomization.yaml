@@ -9,4 +9,4 @@ namespace: nestjsapp
 images:
 - name: nestjsapp
   newName: talessatiro/argocd-nestjs-app
-  newTag: d385f8430af46d5e2b388c51c60ab0135f5aea4b
+  newTag: 2e9563c392a3c6a39ec36e47c3d2bb8f347bd045
