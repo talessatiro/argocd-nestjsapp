@@ -7,6 +7,6 @@ resources:
 namespace: nestjsapp
 
 images:
-  - name: nestjsapp
-    newName: nestjsapp
-    newTag: latest
+- name: nestjsapp
+  newName: talessatiro/argocd-nestjs-app
+  newTag: d385f8430af46d5e2b388c51c60ab0135f5aea4b
