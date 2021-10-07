@@ -20,4 +20,19 @@ Passos de execução:
     k3d cluster create argocd -p "8000:30000@loadbalancer"
     ```
 - Instalação do ArgoCD:
-  - TODO
+    ```shell
+    kubectl create namespace argocd
+    kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+    ```
+- Acessar UI ArgoCD:
+    ```shell
+    kubectl port-forward svc/argocd-server -n argocd 8080:443
+    ```
+  - Como username coloca **admin** e para obtenção da senha execute o seguinte comando:
+      ```shell
+      kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
+      ```
+- Criar namespace:
+    ```shell
+    kubectl create namespace nestjsapp
+    ```
